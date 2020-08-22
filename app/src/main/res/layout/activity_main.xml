@@ -93,11 +93,11 @@
         android:text="성별"
         />
 
+
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,6 +111,12 @@
             android:layout_height="wrap_content"
             android:text="공개 안함" />
     </RadioGroup>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/google_logo_color_272x92dp"/>
 
     <Button
         android:layout_width="match_parent"
