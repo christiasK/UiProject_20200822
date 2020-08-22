@@ -87,6 +87,12 @@
         android:scaleType="centerCrop"
         android:src="@drawable/google_logo_color_272x92dp" />
 
+    <!--남은 영역만큼 채우고 싶을 때-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
