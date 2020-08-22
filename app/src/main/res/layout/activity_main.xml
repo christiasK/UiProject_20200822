@@ -8,11 +8,75 @@
     tools:context=".MainActivity"
     >
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:width="100sp"
-        android:height="35dp"
+        android:text="아이디"
+        android:textSize="16sp"
         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username or email"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="패스워드"
+        android:layout_marginTop="50sp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="your password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:autofillHints="Your Password"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:layout_marginTop="50sp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="한글도 입력 가능"
+        android:maxLength="20"
+        android:autofillHints="너의 이름은?"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추천인 닉네임"
+        android:layout_marginTop="50sp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="추천인 닉네임을 검색해주세요."
+        android:autofillHints="추천인은?"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        android:inputType="text" />
+
 
 </LinearLayout>
